@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="#"
+            _msthash="759148"
+            _msttexthash="115739"
+            >Carrusel</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            _mstaria-label="320099"
+            _msthidden="A"
+            _msthiddenattr="680147"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  _msthash="714103"
+                  _msttexthash="59059"
+                  >Hogar</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  _msthash="714285"
+                  _msttexthash="72878"
+                  >Enlace</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  _msthash="714467"
+                  _msttexthash="227084"
+                  >Deshabilitado</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                _mstplaceholder="74607"
+                _mstaria-label="74607"
+              />
+              <button
+                class="btn btn-outline-success"
+                type="submit"
+                _msthash="827931"
+                _msttexthash="76154"
+              >
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class=""
+            aria-label="Slide 1"
+            _mstaria-label="66157"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class="active"
+            _mstaria-label="66313"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class=""
+            _mstaria-label="66469"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777"></rect>
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 _msthash="1218594" _msttexthash="317889">
+                  Título de ejemplo.
+                </h1>
+                <p _msthash="1171443" _msttexthash="5047705">
+                  Contenido de marcador de posición representativo para la
+                  primera diapositiva del carrusel.
+                </p>
+                <p>
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="#"
+                    _msthash="1380561"
+                    _msttexthash="255294"
+                    >Regístrese hoy</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active" _mstvisible="0">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              _mstVisible="1"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="#777"
+                _mstVisible="2"
+              ></rect>
+            </svg>
+
+            <div class="container" _mstvisible="1">
+              <div class="carousel-caption" _mstvisible="2">
+                <h1 _msthash="1218958" _msttexthash="478972" _mstvisible="3">
+                  Otro ejemplo de titular.
+                </h1>
+                <p _msthash="1171794" _msttexthash="5040802" _mstvisible="3">
+                  Contenido de marcador de posición representativo para la
+                  segunda diapositiva del carrusel.
+                </p>
+                <p _mstvisible="3">
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="#"
+                    _msthash="1380964"
+                    _msttexthash="180063"
+                    _mstvisible="4"
+                    >Aprende más</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" _mstvisible="0">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              _mstVisible="1"
+            >
+              <rect
+                width="100%"
+                height="100%"
+                fill="#777"
+                _mstVisible="2"
+              ></rect>
+            </svg>
+
+            <div class="container" _mstvisible="1">
+              <div class="carousel-caption text-end" _mstvisible="2">
+                <h1 _msthash="1219322" _msttexthash="354198" _mstvisible="3">
+                  Uno más por si acaso.
+                </h1>
+                <p _msthash="1172145" _msttexthash="5405179" _mstvisible="3">
+                  Contenido de marcador de posición representativo para la
+                  tercera diapositiva de este carrusel.
+                </p>
+                <p _mstvisible="3">
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="#"
+                    _msthash="1381367"
+                    _msttexthash="320723"
+                    _mstvisible="4"
+                    >Explorar galería</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" _msthash="654316" _msttexthash="116246"
+            >Anterior</span
+          >
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" _msthash="654589" _msttexthash="113945"
+            >Próximo</span
+          >
+        </button>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              _mstaria-label="310609"
+            >
+              <title _mstHash="1028118" _mstTextHash="112281">Marcador</title>
+              <rect width="100%" height="100%" fill="#777"></rect>
+              <text
+                x="50%"
+                y="50%"
+                fill="#777"
+                dy=".3em"
+                _mstHash="1399697"
+                _mstTextHash="54314"
+              >
+                140x140
+              </text>
+            </svg>
+
+            <h2 class="fw-normal" _msthash="970905" _msttexthash="152542">
+              Encabezado
+            </h2>
+            <p _msthash="929318" _msttexthash="9272185">
+              Contenido de marcador de posición representativo para las tres
+              columnas de texto debajo del carrusel. Esta es la primera columna.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="#"
+                _msthash="1115764"
+                _msttexthash="224497"
+                >Ver detalles »</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              _mstaria-label="310609"
+            >
+              <title _mstHash="1028339" _mstTextHash="112281">Marcador</title>
+              <rect width="100%" height="100%" fill="#777"></rect>
+              <text
+                x="50%"
+                y="50%"
+                fill="#777"
+                dy=".3em"
+                _mstHash="1400009"
+                _mstTextHash="54314"
+              >
+                140x140
+              </text>
+            </svg>
+
+            <h2 class="fw-normal" _msthash="971113" _msttexthash="152542">
+              Encabezado
+            </h2>
+            <p _msthash="929513" _msttexthash="8159333">
+              Otra parte emocionante de contenido de marcador de posición
+              representativo. Esta vez, hemos pasado a la segunda columna.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="#"
+                _msthash="1116011"
+                _msttexthash="224497"
+                >Ver detalles »</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              _mstaria-label="310609"
+            >
+              <title _mstHash="1028560" _mstTextHash="112281">Marcador</title>
+              <rect width="100%" height="100%" fill="#777"></rect>
+              <text
+                x="50%"
+                y="50%"
+                fill="#777"
+                dy=".3em"
+                _mstHash="1400321"
+                _mstTextHash="54314"
+              >
+                140x140
+              </text>
+            </svg>
+
+            <h2 class="fw-normal" _msthash="971321" _msttexthash="152542">
+              Encabezado
+            </h2>
+            <p _msthash="929708" _msttexthash="4531735">
+              Y, por último, la tercera columna de contenido de marcador de
+              posición representativo.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="#"
+                _msthash="1116258"
+                _msttexthash="224497"
+                >Ver detalles »</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2
+              class="featurette-heading fw-normal lh-1"
+              _msthash="971919"
+              _msttexthash="2007564"
+            >
+              Primer encabezado featurette.
+              <span class="text-muted" _istranslated="1"
+                >Te dejará boquiabierto.</span
+              >
+            </h2>
+            <p class="lead" _msthash="930293" _msttexthash="7042347">
+              Un gran contenido de marcador de posición para el primer
+              featurette aquí. Imagina una prosa emocionante aquí.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="
+                bd-placeholder-img bd-placeholder-img-lg
+                featurette-image
+                img-fluid
+                mx-auto
+              "
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              _mstaria-label="310505"
+            >
+              <title _mstHash="1029535" _mstTextHash="112281">Marcador</title>
+              <rect width="100%" height="100%" fill="#eee"></rect>
+              <text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em"
+                _mstHash="1401569"
+                _mstTextHash="54210"
+              >
+                500x500
+              </text>
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2
+              class="featurette-heading fw-normal lh-1"
+              _msthash="972777"
+              _msttexthash="1508312"
+            >
+              Oh sí, es así de bueno.
+              <span class="text-muted" _istranslated="1"
+                >Compruébelo usted mismo.</span
+              >
+            </h2>
+            <p class="lead" _msthash="931112" _msttexthash="13423514">
+              ¿Otro featurette? Claro. Más contenido de marcador de posición
+              aquí para darle una idea de cómo funcionaría este diseño con
+              contenido real del mundo real.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <svg
+              class="
+                bd-placeholder-img bd-placeholder-img-lg
+                featurette-image
+                img-fluid
+                mx-auto
+              "
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              _mstaria-label="310505"
+            >
+              <title _mstHash="1030432" _mstTextHash="112281">Marcador</title>
+              <rect width="100%" height="100%" fill="#eee"></rect>
+              <text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em"
+                _mstHash="1402739"
+                _mstTextHash="54210"
+              >
+                500x5000
+              </text>
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2
+              class="featurette-heading fw-normal lh-1"
+              _msthash="1008111"
+              _msttexthash="661297"
+            >
+              Y por último, este.
+              <span class="text-muted" _istranslated="1">Jaque mate.</span>
+            </h2>
+            <p class="lead" _msthash="965900" _msttexthash="25753546">
+              And yes, this is the last block of representative placeholder
+              content. Again, not really intended to be actually read, simply
+              here to give you a better view of what this would look like with
+              some actual content. Your content.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="
+                bd-placeholder-img bd-placeholder-img-lg
+                featurette-image
+                img-fluid
+                mx-auto
+              "
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              _mstaria-label="310505"
+            >
+              <title _mstHash="1066312" _mstTextHash="112281">Marcador</title>
+              <rect width="100%" height="100%" fill="#eee"></rect>
+              <text
+                x="50%"
+                y="50%"
+                fill="#aaa"
+                dy=".3em"
+                _mstHash="1442441"
+                _mstTextHash="54210"
+              >
+                500x500
+              </text>
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end">
+          <a href="#" _msthash="572117" _msttexthash="137137">Back to top</a>
+        </p>
+        <p _msthash="572234" _msttexthash="2421627">
+          © 2017–2022 Company, Inc. · <a href="#">Privacy</a> ·
+          <a href="#">Terms</a>
+        </p>
+      </footer>
+    </main>
+    <script
+      src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
